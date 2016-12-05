@@ -13,7 +13,7 @@
   <packaging>jar</packaging>
 
   <name>adams-dl4j-cuda-7.5-libs</name>
-  <description>Libraries for deeplearning4j using CUDA 7.5.</description>
+  <description>CUDA 7.5 Libraries for deeplearning4j.</description>
   <url>https://adams.cms.waikato.ac.nz/</url>
   <organization>
     <name>University of Waikato, Hamilton, NZ</name>
