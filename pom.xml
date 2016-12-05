@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>nz.ac.waikato.cms.adams</groupId>
+    <artifactId>adams-pom</artifactId>
+    <version>16.12.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>adams-libraries-pom</artifactId>
+  <version>16.12.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>adams-libraries-pom</name>
+  <description>The project object model for all adams-libraries modules.</description>
+  <url>https://adams.cms.waikato.ac.nz/</url>
+  <organization>
+    <name>University of Waikato, Hamilton, NZ</name>
+    <url>http://www.waikato.ac.nz/</url>
+  </organization>
+
+  <scm>
+    <connection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</connection>
+    <developerConnection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</developerConnection>
+    <url>https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</url>
+  </scm>
+
+  <properties>
+    <timestamp>${maven.build.timestamp}</timestamp>
+    <maven.build.timestamp.format>yyyy-MM-dd HH:mm:ss</maven.build.timestamp.format>
+  </properties>
+
+  <modules>
+    <module>adams-dl4j-cuda-7.5-libs</module>
+  </modules>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-release-plugin</artifactId>
+          <version>2.5</version>
+          <configuration>
+            <tagBase>https://svn.cms.waikato.ac.nz/svn/adams/libraries/tags</tagBase>
+            <useReleaseProfile>false</useReleaseProfile>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+</project>
