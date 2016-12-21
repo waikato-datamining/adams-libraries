@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>adams-libraries-pom</artifactId>
-  <version>16.12.0</version>
+  <version>16.12.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>adams-libraries-pom</name>
@@ -22,9 +22,9 @@
   </organization>
 
   <scm>
-    <connection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/tags/adams-libraries-pom-16.12.0</connection>
-    <developerConnection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/tags/adams-libraries-pom-16.12.0</developerConnection>
-    <url>https://svn.cms.waikato.ac.nz/svn/adams/libraries/tags/adams-libraries-pom-16.12.0</url>
+    <connection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</connection>
+    <developerConnection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</developerConnection>
+    <url>https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</url>
   </scm>
 
   <properties>
