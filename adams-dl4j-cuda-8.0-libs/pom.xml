@@ -9,11 +9,11 @@
     <version>17.1.0-SNAPSHOT</version>
   </parent>
 
-  <artifactId>adams-dl4j-cuda-7.5-libs</artifactId>
+  <artifactId>adams-dl4j-cuda-8.0-libs</artifactId>
   <packaging>jar</packaging>
 
-  <name>adams-dl4j-cuda-7.5-libs</name>
-  <description>CUDA 7.5 Libraries for deeplearning4j.</description>
+  <name>adams-dl4j-cuda-8.0-libs</name>
+  <description>CUDA 8.0 Libraries for deeplearning4j.</description>
   <url>https://adams.cms.waikato.ac.nz/</url>
   <organization>
     <name>University of Waikato, Hamilton, NZ</name>
@@ -45,7 +45,7 @@
   <dependencies>
     <dependency>
       <groupId>org.nd4j</groupId>
-      <artifactId>nd4j-cuda-7.5</artifactId>
+      <artifactId>nd4j-cuda-8.0</artifactId>
       <version>${nd4j.version}</version>
     </dependency>
   </dependencies>
