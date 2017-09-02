@@ -22,9 +22,10 @@
   </organization>
 
   <scm>
-    <connection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</connection>
-    <developerConnection>scm:svn:https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</developerConnection>
-    <url>https://svn.cms.waikato.ac.nz/svn/adams/libraries/trunk</url>
+    <connection>scm:git:https://github.com/waikato/adams-libraries</connection>
+    <developerConnection>scm:git:https://github.com/waikato/adams-libraries</developerConnection>
+    <url>https://github.com/waikato/adams-libraries</url>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
@@ -44,10 +45,12 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-release-plugin</artifactId>
-          <version>2.5</version>
+          <version>2.5.1</version>
           <configuration>
-            <tagBase>https://svn.cms.waikato.ac.nz/svn/adams/libraries/tags</tagBase>
             <useReleaseProfile>false</useReleaseProfile>
+            <localCheckout>true</localCheckout>
+            <pushChanges>true</pushChanges>
+            <commitByProject>true</commitByProject>
           </configuration>
         </plugin>
       </plugins>
