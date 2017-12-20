@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>adams-libraries-pom</artifactId>
-  <version>17.12.0</version>
+  <version>17.12.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>adams-libraries-pom</name>
@@ -25,7 +25,7 @@
     <connection>scm:git:https://github.com/waikato/adams-libraries</connection>
     <developerConnection>scm:git:https://github.com/waikato/adams-libraries</developerConnection>
     <url>https://github.com/waikato/adams-libraries</url>
-    <tag>adams-libraries-pom-17.12.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
