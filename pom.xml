@@ -36,6 +36,7 @@
 
   <modules>
     <module>adams-dl4j-cuda-8.0-libs</module>
+    <module>multiway-algorithms-cuda-8.0-libs</module>
   </modules>
 
   <build>
