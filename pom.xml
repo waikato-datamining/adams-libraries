@@ -22,9 +22,9 @@
   </organization>
 
   <scm>
-    <connection>scm:git:https://github.com/waikato/adams-libraries</connection>
-    <developerConnection>scm:git:https://github.com/waikato/adams-libraries</developerConnection>
-    <url>https://github.com/waikato/adams-libraries</url>
+    <connection>scm:git:https://github.com/waikato-datamining/adams-libraries</connection>
+    <developerConnection>scm:git:https://github.com/waikato-datamining/adams-libraries</developerConnection>
+    <url>https://github.com/waikato-datamining/adams-libraries</url>
     <tag>HEAD</tag>
   </scm>
 
