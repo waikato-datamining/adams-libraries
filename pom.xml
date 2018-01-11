@@ -35,7 +35,6 @@
   </properties>
 
   <modules>
-    <module>adams-dl4j-cuda-7.5-libs</module>
     <module>adams-dl4j-cuda-8.0-libs</module>
   </modules>
 
