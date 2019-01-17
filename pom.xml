@@ -36,6 +36,7 @@
 
   <modules>
     <module>multiway-algorithms-cuda-8.0-libs</module>
+    <module>multiway-algorithms-cuda-9.2-libs</module>
   </modules>
 
   <build>
