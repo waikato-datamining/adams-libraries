@@ -6,7 +6,7 @@
   <parent>
     <groupId>nz.ac.waikato.cms.adams</groupId>
     <artifactId>adams-libraries-pom</artifactId>
-    <version>21.1.0</version>
+    <version>21.1.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>multiway-algorithms-cuda-9.2-libs</artifactId>
